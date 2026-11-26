@@ -5,6 +5,11 @@ on:
   push:
     branches:
     - main
+  pull_request:
+    branches:
+    - main
+  # Allow a user to start a build from the Actions tab
+  workflow_dispatch:
   schedule:
   # Weekly build at 20:55 on Sundays
   - cron: 55 20 * * SUN
