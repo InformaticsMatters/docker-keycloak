@@ -1,0 +1,9 @@
+---
+# Dependabot opens a PR when a new version of a GitHub Action is released.
+# See https://docs.github.com/en/code-security/dependabot/working-with-dependabot/dependabot-options-reference
+version: 2
+updates:
+- package-ecosystem: github-actions
+  directory: /
+  schedule:
+    interval: weekly
